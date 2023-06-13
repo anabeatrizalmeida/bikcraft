@@ -7,14 +7,18 @@
     <title>Magic | Bikcraft</title>
     <meta name="description" content="Magic." />
 
-    <link rel="preload" href="../css/style.css" as="style">
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="../css/style.min.css" as="style" />
+    <link rel="stylesheet" href="../css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
 
   <body id="bicicleta">
@@ -45,9 +49,9 @@
       </div>
       <div class="bicicleta container">
         <div class="bicicleta-imagens">
-          <img src="../img/bicicleta/nimbus2.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus1.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus3.jpg" alt="" />
+          <img src="../img/bicicleta/nimbus2.jpg" alt="nimbus2" />
+          <img src="../img/bicicleta/nimbus1.jpg" alt="nimbus1" />
+          <img src="../img/bicicleta/nimbus3.jpg" alt="nimbus3" />
         </div>
         <div class="bicicleta-conteudo">
           <p class="font-2-l cor-5">
@@ -56,13 +60,17 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">Comprar Agora</a>
-            <span class="font-1-xs cor-6"
-              ><img src="../img/icones/entrega.svg" alt="" /> entrega em 5
-              dias</span
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=magic"
+              >Comprar Agora</a
             >
             <span class="font-1-xs cor-6"
-              ><img src="../img/icones/estoque.svg" alt="" /> 18 em
+              ><img src="../img/icones/entrega.svg" alt="entrega" /> entrega em
+              5 dias</span
+            >
+            <span class="font-1-xs cor-6"
+              ><img src="../img/icones/estoque.svg" alt="estoque" /> 18 em
               estoque</span
             >
           </div>
@@ -70,28 +78,28 @@
           <h2 class="font-1-xs cor-0">Informações</h2>
           <ul class="bicicleta-informacoes">
             <li>
-              <img src="../img/icones/eletrica.svg" alt="" />
+              <img src="../img/icones/eletrica.svg" alt="eletrica" />
               <h3 class="font-1-m cor-0">Motor Elétrico</h3>
               <p class="font-2-xs cor-5">
                 Permite você viajar distâncias inimaginaveis com a sua bike.
               </p>
             </li>
             <li>
-              <img src="../img/icones/velocidade.svg" alt="" />
+              <img src="../img/icones/velocidade.svg" alt="velocidade" />
               <h3 class="font-1-m cor-0">45 km/h</h3>
               <p class="font-2-xs cor-5">
                 A mais rápida bicicleta elétrica disponível hoje no mercado.
               </p>
             </li>
             <li>
-              <img src="../img/icones/rastreador.svg" alt="" />
+              <img src="../img/icones/rastreador.svg" alt="rastreador" />
               <h3 class="font-1-m cor-0">Rastreador</h3>
               <p class="font-2-xs cor-5">
                 Rastreador e sistema anti-furto para garantir o seu sossego.
               </p>
             </li>
             <li>
-              <img src="../img/icones/carbono.svg" alt="" />
+              <img src="../img/icones/carbono.svg" alt="carbono" />
               <h3 class="font-1-m cor-0">Fibra de Carbono</h3>
               <p class="font-2-xs cor-5">
                 Maior proteção possível para a sua Bikcraft com fibra de
@@ -196,5 +204,6 @@
         </p>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>

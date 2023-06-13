@@ -7,14 +7,18 @@
     <title>Nimbus | Bikcraft</title>
     <meta name="description" content="Nimbus." />
 
-    <link rel="preload" href="../css/style.css" as="style">
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="../css/style.min.css" as="style" />
+    <link rel="stylesheet" href="../css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
 
   <body id="bicicleta">
@@ -56,7 +60,11 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">Comprar Agora</a>
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=nimbus"
+              >Comprar Agora</a
+            >
             <span class="font-1-xs cor-6"
               ><img src="../img/icones/entrega.svg" alt="" /> entrega em 5
               dias</span
@@ -196,5 +204,6 @@
         </p>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>
