@@ -4,7 +4,7 @@ Olá, Dev!!!! Seja bem-vindo ao projeto bikcraft. <br>
 
 ## 👀 Vizualização
 
-Veja o deploy https://anabeatrizalmeida.github.io/projeto-pessoal/
+Veja o deploy https://anabeatrizalmeida.github.io/bikcraft/
 
 ## 🚀 Começando
 
